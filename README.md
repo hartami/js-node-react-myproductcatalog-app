@@ -6,8 +6,8 @@ To run this app:
 2. Open your terminal and go to the root directory. Run this command:
  SET PORT 3001 && npm start
 3. Open other terminal and go to the "client" directory. Run "npm start".
-4. Open "localhost:3000/products
+4. Open "localhost:3000/products" or "localhost:3000/"
 
-![2019-02-27](https://user-images.githubusercontent.com/22983605/53488757-e8b29080-3a97-11e9-916b-b55246e59d5a.png)
-![2019-02-27 1](https://user-images.githubusercontent.com/22983605/53488761-eea87180-3a97-11e9-8bc5-97588d92768f.png)
+![2019-03-02](https://user-images.githubusercontent.com/22983605/53671617-e9117e00-3c87-11e9-9ad7-05958325e559.png)
 
+![2019-03-02 1](https://user-images.githubusercontent.com/22983605/53671623-ee6ec880-3c87-11e9-8692-5724439177e4.png)
