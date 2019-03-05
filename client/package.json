@@ -1,7 +1,7 @@
 {
-  "name": "dummys-guide-to-redux-and-thunk-react",
+  "name": "mycatalog",
   "version": "1.0.0",
-  "description": "A Dummy's Guide to Redux and Thunk in React",
+  "description": "Product Catalog of Saung Warna",
   "private": true,
   "proxy": "http://localhost:3001",
   "scripts": {
