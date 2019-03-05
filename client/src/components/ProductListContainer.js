@@ -1,20 +1,18 @@
 import React from "react";
 import "./ProductListContainer.css";
-//import "./productcard.css";
+import "./productstyle.css";
 
 function ProductListContainer(props) {
-  return (
-    <div className="card">
-      <h3>{props.title}</h3>
-      <img src={props.image} alt="painting" width="200px" />
-      <p className="price">{props.price}</p>
-      <p> Color: {props.color}</p>
-      <p>
-        <button>Contact the Painter</button>
-      </p>
-      <p />
-    </div>
-  );
+    return (
+        <div>
+            <h3>{props.title}</h3>
+            <img src={props.image} alt="painting" className="responsive" />
+            <p className="price">{props.price}</p>
+            <p> {props.color}</p>
+
+            <p />
+        </div>
+    );
 }
 
 export default ProductListContainer;

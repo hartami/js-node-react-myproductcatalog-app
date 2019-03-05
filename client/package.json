@@ -1,30 +1,29 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "dummys-guide-to-redux-and-thunk-react",
+  "version": "1.0.0",
+  "description": "A Dummy's Guide to Redux and Thunk in React",
   "private": true,
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app"
+  },
   "dependencies": {
     "axios": "^0.18.0",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-redux": "^6.0.1",
-    "react-scripts": "2.1.5",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.10.0",
+    "eslint-plugin-react": "^6.6.0",
+    "nwb": "0.12.x"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "proxy": "http://localhost:3001"
+  "author": "",
+  "license": "MIT",
+  "repository": ""
 }

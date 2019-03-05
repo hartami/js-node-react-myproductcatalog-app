@@ -27,3 +27,8 @@
 .card button:hover {
   opacity: 0.7;
 }
+
+.responsive {
+  max-width: 170px;
+  height: 220px;
+}
